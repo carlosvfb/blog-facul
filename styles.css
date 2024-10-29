@@ -1,0 +1,92 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 3px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  ul li a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  ul li a:hover {
+    text-decoration: underline;
+  }
+
+  #scrollTopBtn {
+    position: fixed;
+    bottom: 75px; /* Um pouco acima do footer */
+    right: 40px;  /* Alinhado à direita */
+    padding: 10px 15px;
+    background-color: #000; /* Cor de fundo do botão */
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none; /* Inicialmente escondido */
+    z-index: 1000; /* Certifica que fica acima de outros elementos */
+}
+
+/* Efeito hover para o botão */
+#scrollTopBtn:hover {
+    background-color: #333;
+}
+  
