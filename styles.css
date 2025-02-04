@@ -11,6 +11,9 @@ body {
     color: white;
     padding: 10px 0;
     text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
   
   nav ul {
@@ -31,7 +34,7 @@ body {
   
   main {
     max-width: 1200px;
-    margin: 60px auto;
+    margin: 100px auto;
     padding: 20px;
     background-color: white;
   }
