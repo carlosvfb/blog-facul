@@ -4,14 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="./images/favicon.ico">
   <title>Blog: Cidadania Digital, Ética e Justiça e Transcendência</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
   <header>
-    <nav>
-      <h1>Blog sobre Ética, Justiça e Transcendência</h1>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#"><img src="./images/logo.webp" alt=""></a>
+        <h1>ADS - Apex I</h1>
+      </div>
       <ul>
         <li><a href="#cidadania-digital">Cidadania Digital</a></li>
         <li><a href="#etica-aristoteles">Ética e Justiça em Aristóteles</a></li>
@@ -19,21 +23,29 @@
         <li><a href="#bibliografia">Bibliografia</a></li>
       </ul>
     </nav>
+    <h2>Diversidade de Gênero e <br>Ética no Ambiente de Trabalho</h2>
   </header>
 
   <main>
-    <section id="cidadania-digital">
-      <h2>Cidadania Digital: O Uso Consciente da Tecnologia</h2>
-      <p>
-        Cidadania digital é sobre saber usar a tecnologia de forma consciente, ética e segura. No mundo conectado em que vivemos, participar ativamente do ambiente digital envolve não só acessar a internet, mas também entender como nos comportamos, interagimos e protegemos nossos dados.
-      </p>
-      <p>
-        Ela abrange vários aspectos, como garantir que todos tenham acesso à internet de maneira justa, desenvolver habilidades para usar as ferramentas digitais com responsabilidade e se comunicar de forma respeitosa. Além disso, inclui seguir regras de convivência online, como a etiqueta digital, que é basicamente ser educado nas interações.
-      </p>
-      <p>
-        Outro ponto importante é o comércio digital, que envolve fazer compras online de forma segura e consciente, e o direito digital, que cuida da proteção de dados e questões legais no ambiente virtual. A segurança e a privacidade dos nossos dados são cada vez mais fundamentais para nos protegermos de abusos e crimes online.
-      </p>
-    </section>
+    <section id="conteudos-relacionados">
+      <h3>Conteúdos relacionados</h3>
+      <ul class="cards">
+        <li class="card" data-ods="ods4">
+          <h4>ODS 4 - Educação de Qualidade</h4>
+          <img src="./images/alunos.jpg" alt="ODS 4 - Educação de Qualidade">
+          <p>A educação de qualidade é essencial para reduzir desigualdades e promover o desenvolvimento sustentável. O ODS 4 busca garantir uma educação inclusiva, equitativa e de qualidade para todos, promovendo oportunidades de aprendizagem ao longo da vida.</p>
+          <button>Saiba mais</button>
+        </li>
+        <li class="card" data-ods="ods5">
+          <h4>ODS 5 - Igualdade de Gênero</h4>
+          <img src="./images/igualdade-de-genero.jpg" alt="ODS 5 - Igualdade de Gênero">
+          <p>O ODS 5 busca alcançar a igualdade de gênero, promovendo os direitos das mulheres e meninas, combatendo a discriminação e garantindo igualdade de oportunidades em todas as esferas da sociedade, incluindo o ambiente de trabalho.</p>
+          <button>Saiba mais</button>
+        </li>
+      </ul>
+</section>
+
+
 
     <section id="etica-aristoteles">
       <h2>Ética e Justiça em Aristóteles</h2>
@@ -70,11 +82,16 @@
         <li><a href="https://www.mackenzie.br/chancelaria/direto-da-chancelaria/arquivo-1/n/a/i/etica-e-justica" target="_blank">Ética e Justiça - Mackenzie</a></li>
       </ul>
     </section>
-    <button id="scrollTopBtn" onclick="scrollToTop()">
-        <i class="fa-solid fa-arrow-up"></i>
-    </button>
   </main>
 
+  
+  
+  <div id="popup-modal" class="popup-modal">
+    <div class="popup-content">
+      <span id="close-popup" class="close-popup">&times;</span>
+      <div id="popup-body"></div>
+    </div>
+  </div>
 
   <footer>
     <p>&copy; 2024 Blog de Filosofia e Ética. Todos os direitos reservados.</p>
