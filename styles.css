@@ -235,6 +235,10 @@ section {
   margin-bottom: 30px;
 }
 
+.popup-content h6 {
+  font-size: 0.8rem;
+}
+
 .popup-content h3 {
   font-size: 1.6rem;
   margin-bottom: 20px;
