@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 ul {
   list-style-type: none;
 }
@@ -104,8 +108,8 @@ header h2 {
 
 main {
   max-width: 1700px;
-  margin: 100px auto;
-  padding: 20px;
+  margin: 100px auto 0 auto;
+  padding: 10px 20px;
 }
 
 h1,
@@ -260,6 +264,133 @@ section {
   transform: scale(1);
 }
 
+#bibliografia {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#bibliografia h3 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.bibliografia-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.bibliografia-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  background: linear-gradient(90deg, #f5f5f5, #e0e0e0);
+  padding: 18px;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background 0.3s ease;
+  border: 1px solid #ddd;
+}
+
+.bibliografia-item:hover {
+  transform: translateY(-3px);
+  background: linear-gradient(90deg, #eaeaea, #d6d6d6);
+}
+
+.bibliografia-item span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#contribuidores {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+#contribuidores h3 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.contribuidores-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.contribuidor-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.contribuidor-card:hover {
+  transform: translateY(-5px);
+}
+
+.contribuidor-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #666;
+  margin-bottom: 10px;
+}
+
+.contribuidor-card h4 {
+  font-size: 18px;
+  color: #333;
+  margin: 0;
+}
+
+#agradecimento {
+  padding: 60px 20px;
+  background: #f8f9fa;
+  text-align: center;
+  border-top: 2px solid #ddd;
+}
+
+.agradecimento-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#agradecimento h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#agradecimento p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+#agradecimento p strong {
+  color: #222;
+  font-size: 40px;
+  margin-top: 80px;
+}
+
 footer {
   background-color: #333;
   color: white;
@@ -278,6 +409,6 @@ ul li a {
   text-decoration: none;
 }
 
-ul li a:hover {
+nav ul li a:hover {
   text-decoration: underline;
 }
