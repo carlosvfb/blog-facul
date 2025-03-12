@@ -19,7 +19,7 @@ body {
 
 header {
   position: relative;
-  background-image: url("https://imgs.search.brave.com/5mYiZLhz4796kSHXpPzhaG0vdVULdF9HGPlUkht3a14/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTM2/NjEzNzc5Mi9wdC9m/b3RvL2J1c2luZXNz/LXBlcnNvbnMtb24t/bWVldGluZy1pbi10/aGUtb2ZmaWNlLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz03/cl9VSlBDNFFIRDJ2/c3A4OE9SazhjX1Vh/cjJCRmEyZ1NXV0ht/VEVBVkxjPQ");
+  background-image: url("./images/banner.webp");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -168,10 +168,9 @@ section {
 }
 
 .card p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #666;
   margin-bottom: 20px;
-  line-height: 1.5;
 }
 
 .card button {
@@ -230,20 +229,22 @@ section {
 }
 
 .popup-content h2 {
-  font-size: 2rem;
+  font-size: 2.1rem;
   text-align: center;
   color: #333;
   margin-bottom: 30px;
 }
 
 .popup-content h3 {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   margin-bottom: 20px;
 
 }
 
 .popup-content p {
-  line-height: 1.6;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.5;
   margin-bottom: 20px;
 }
 
@@ -379,7 +380,7 @@ section {
 }
 
 #agradecimento p {
-  font-size: 18px;
+  font-size: 1.1rem;
   color: #555;
   line-height: 1.6;
   margin-bottom: 15px;
